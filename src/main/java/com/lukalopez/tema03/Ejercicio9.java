@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ejercicio9 {
     public static void main(String args[]){
         Scanner lector = new Scanner(System.in);
-        Double lado1, lado2, lado3;
+        double lado1, lado2, lado3;
 
         System.out.println("En este programa, a partir de los lados de un triángulo, indicaré de que tipo es. Primero, introduce el tamaño del primer lado: ");
         lado1 = Double.parseDouble(lector.nextLine());
