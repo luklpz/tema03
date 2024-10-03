@@ -15,7 +15,7 @@ public class Ejercicio9 {
         lado3 = Double.parseDouble(lector.nextLine());
         lector.close();
 
-        if ((lado1==lado2)&&(lado1==lado2)) {
+        if ((lado1==lado2)&&(lado1==lado3)) {
             System.out.println("El triángulo es equilátero.");
         } else if ((lado1==lado2)||(lado2==3)||(lado1==lado3)) {
             System.out.println("El triángulo es isósceles.");
