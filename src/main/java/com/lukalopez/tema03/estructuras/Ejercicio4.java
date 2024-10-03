@@ -1,4 +1,4 @@
-package com.lukalopez.tema03;
+package com.lukalopez.tema03.estructuras;
 
 import java.util.Scanner;
 
