@@ -14,7 +14,7 @@ public class Ejercicio5 {
                 cPar=cPar+1;
                 sPar=sPar+i;
             }
-                else{
+            else{
                 System.out.print(" impar");
                 cImpar = cImpar + 1;
                 sImpar = sImpar + i;
