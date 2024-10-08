@@ -2,8 +2,6 @@ package com.lukalopez.tema03.bucles;
 
 import java.util.Scanner;
 
-import static java.lang.Math.abs;
-
 public class Ejercicio3 {
     public static void main(String args[]) {
         float suma, num1, num2;
@@ -13,9 +11,9 @@ public class Ejercicio3 {
         System.out.println("Introduce el segundo número: ");
         num2 = Float.parseFloat(lector.nextLine());
         lector.close();
-        suma=abs(num1);
-        for (float i=1;i<abs(num2);i++){
-            suma=suma+abs(num1);
+        suma=Math.abs(num1);
+        for (float i=1;i<Math.abs(num2);i++){
+            suma=suma+Math.abs(num1);
         }
         if ((num1<0&&num2>0)||(num1>0&&num2<0)) {
             suma=suma*-1;
