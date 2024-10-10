@@ -29,7 +29,7 @@ public class Ejercicio12 {
             System.out.println();
             System.out.println("Número de intentos agotado, has perdido.");
         }
-        System.out.println("Juego acabado.");
+        System.out.println("Juego acabado, el número era "+num+".");
         lector.close();
     }
 }
