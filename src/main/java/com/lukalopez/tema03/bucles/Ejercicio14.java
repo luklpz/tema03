@@ -4,6 +4,9 @@ import java.util.Random;
 
 public class Ejercicio14 {
     public static void main(String args[]) {
+        System.out.println();
+        System.out.println("Determinaremos la posibilidad de que salga cada número al tirar un dado:");
+        System.out.println();
         int num, uno=0, dos=0, tres=0, cuatro=0, cinco=0, seis=0;
         Random rand = new Random();
         for (int i=1;i<1000000;i++) {
@@ -33,5 +36,6 @@ public class Ejercicio14 {
         System.out.println("El número 4 ha aparecido "+cuatro+" veces. Su porcentaje es del "+cuatro/10000+"%.");
         System.out.println("El número 5 ha aparecido "+cinco+" veces. Su porcentaje es del "+cinco/10000+"%.");
         System.out.println("El número 6 ha aparecido "+seis+" veces. Su porcentaje es del "+seis/10000+"%.");
+        System.out.println();
     }
 }

@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejercicio15 {
     public static void main(String args[]) {
         int h,m,s;
+        System.out.println();
         System.out.println("En este programa vamos a escribir una hora. ");
         Scanner lector = new Scanner(System.in);
         do {
@@ -12,6 +13,7 @@ public class Ejercicio15 {
             s = Integer.parseInt(lector.nextLine());
             if (s>59||s<0) {
                 System.out.println("Dato no válido.");
+                System.out.println();
             }
         } while (s>59||s<0);
         do {
@@ -19,6 +21,7 @@ public class Ejercicio15 {
             m = Integer.parseInt(lector.nextLine());
             if (m>59||m<0) {
                 System.out.println("Dato no válido.");
+                System.out.println();
             }
         } while (m>59||m<0);
         do {
@@ -26,6 +29,7 @@ public class Ejercicio15 {
         h = Integer.parseInt(lector.nextLine());
             if (h>23||h<0) {
                 System.out.println("Dato no válido.");
+                System.out.println();
             }
         } while (h>23||h<0);
         System.out.println();
