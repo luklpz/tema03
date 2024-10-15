@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Ejercicio16 {
     public static void main(String args[]) {
         int dado, pcporras=0, npcporras=0,cont=0, pcpoints,npcpoints;
-        String con = "A";
+        String con;
         Random rand = new Random();
         Scanner lector = new Scanner(System.in);
         System.out.println("Este juego consiste en conseguir más puntos que el rival, siendo el máximo 11. Si te pasas de 11 pierdes. Los puntos son el resultado de tirar un dado.");
