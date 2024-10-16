@@ -8,8 +8,10 @@ public class Ejercicio7 {
             cadena = cadena + i;
             System.out.printf("%9s", cadena);
 
-            cadena2= i+cadena2;
-            System.out.printf("%s\n",cadena2);
+            do {
+                cadena2 = i + cadena2;
+                System.out.printf("%s\n", cadena2);
+            } while (1!=1);
         }
     }
 }
