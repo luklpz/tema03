@@ -205,7 +205,7 @@ public class Ejercicio9 {
         //Imprimimos los valores
         System.out.print("\u001B[1;37;44m*** DATOS ESTACIÓN METEOROLÓGICA ***\u001B[0m\n");
         System.out.printf("%-24s%s\n","Ciudad:",city);
-        System.out.printf("%-24s%02x%s%02x%s%04x\n","Fecha:",day,"/",month,"/",year);
+        System.out.printf("%-24s%02x%s%02x%s%s\n","Fecha:",day,"/",month,"/",year);
         System.out.printf("%-24s%02x%s%02x%s%02x\n","Fecha:",hour,":",min,":",sec);
 
         //Color de la velocidad del viento
@@ -270,6 +270,6 @@ public class Ejercicio9 {
             xColor=5;
         }
 
-        System.out.printf("%-24s\u001B[1;3%xm%x\u001B[0m","UVI:",xColor,pRain);
+        System.out.printf("%-24s\u001B[1;3%xm%x\u001B[0m","UVI:",xColor,uvi);
     }
 }
